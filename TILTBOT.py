@@ -13,14 +13,14 @@ async def  on_ready():
 
 @client.event
 async def on_member_join(member):
-    await ctx.send(f'{member} Hola gordo, espero que no tengas covid.')
+    await ctx.send(f'{member} Hola Bro, espero que no tengas covid.')
 
 
 
 @client.command(aliases=['termometro','temp'])
 async def temperatura(ctx):
     await ctx.channel.purge(limit=1)
-    temperature_value=round(random.uniform(33,40),1)
+    temperature_value=round(random.uniform(34,40),1)
     print(float(temperature_value))
     await ctx.send(f'Tomando la Temperatura... \nTemperatura:{temperature_value}')
     if float(temperature_value) > float(37.5):
