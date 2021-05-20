@@ -9,7 +9,7 @@ client=commands.Bot(command_prefix='.')
 bot = discord.ext.commands.Bot(command_prefix = '-')
 @client.event
 async def  on_ready():
-    print('Hola bro')
+    print('All ready bro!')
 
 @client.event
 async def on_member_join(member):
