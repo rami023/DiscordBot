@@ -63,7 +63,7 @@ async def Randomtilt(ctx):
 @client.command(aliases=['ht'])
 async def historiatilt(ctx):
     await ctx.channel.purge(limit=1)
-    a=['Uri','Rama','Marian','Topa','Santi','Mamut','Luca','Guido','Martin','Manuelo','Pancho','Mati','Nacho','Fer','Ale']
+    a=['Uri','Rama','Marian','Topa','Santi','Mamut','Luca','Guido','Martin','Manuelo','Pancho','Matt','Nacho','Fer','Ale']
     b=random.choice(a)
     c=['Era una noche lluviosa cuando a','Estabamos en una ranked cuando a','Nos juntamos en lo de Topa cuando a','Considere violar la cuarentena cuando a','Estaba mirando los ultimos precios de reposeras en Mercadolibre cuando a','Me levante temprano para analizar el mercado cuando a','Estaba analizando el contexto geopolitico de JOJO cuando a']
     d=random.choice(c)
@@ -126,7 +126,7 @@ async def blacklistb(ctx,name2):
     cursor.execute(insert_query);
     connection.commit();
     connection.close();
-    await ctx.send(f'The database has been updated, Fuck you {name}\n{name} was turbobanned from tilt because he might be a {reason}\nGood luck getting out of {elo}')
+    await ctx.send(f'The database has been updated, Shame on You {name}\n{name} was turbobanned from this server because he might be a {reason}\nGood luck getting out of {elo}')
     
     
 # BLACKLIST SEARCH COMMAND   
