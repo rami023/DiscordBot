@@ -223,4 +223,5 @@ async def daily(ctx):
     
     
 nest_asyncio.apply()   
-client.run('ODM0ODUzMTkwMzM5MTMzNTEw.YIG7nw.CwMiNj9jJ7_Ax3fhas5qCs_nDgk')
+client.run('')
+'''Credentials Removed'''
